@@ -92,7 +92,7 @@ font-weight: bold;
  }
  
  body{
-	background-color: #00abe9;
+	background-color: #ffffff;
 	font-family: 'Raleway', sans-serif;
 }
 /*Heading1*/
@@ -187,4 +187,119 @@ h1{
   30% { opacity: 0; -ms-transform: translateY(50px); }
   80% { opacity: 0; }
   100% { opacity: 0; }
+}
+@media only screen and (max-width: 1024px) {
+  body{
+    font-family: mont;
+    background-image: url(images/mtn.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 25px;
+  }
+  .welcome-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.909);
+    background: rgba(0, 0, 0, 0.24);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+    border: 1px solid rgba(255, 255, 255, 0.37);
+  }
+  .hero-div{
+  margin-top: 25px;
+  padding: 25px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  color: rgba(255, 255, 255, 0.909);
+  background: rgba(0, 0, 0, 0.24);
+   border-radius: 16px;
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(6.5px);
+   -webkit-backdrop-filter: blur(6.5px);
+   border: 1px solid rgba(255, 255, 255, 0.37);
+  }
+  .hello-txt{
+  font-size: 50px;
+  margin-bottom: 0px;
+  font-weight: 500;
+  }
+  .name-txt{
+  margin-top: 0px;
+  font-size: 75px;
+  font-weight: bold;
+  }
+  .intro{
+    font-size: 1.5em;
+  }
+  .resume-div{
+    margin-top: 25px;
+    padding: 10px 25px;
+    color: 43,43,43;
+    background: rgba(0, 0, 0, 0.24);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
+    border: 1px solid rgba(255, 255, 255, 0.37);
+  }
+    .resume-link{
+      display: flex;
+      justify-content: start;
+      align-items: center;
+     column-gap: 5px;
+      font-size: 13px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      transition: 0.25s;
+    }
+   .resume-img{
+    height: 50px;
+   }
+   .resume-link:hover{
+    opacity: 65%;
+    transform: scale(.98);
+   }
+   
+   body{
+    background-color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+  }
+  /*Heading1*/
+  h1{
+    color: #fff;
+    font-size: 40px;
+    margin-top: 40px;
+    text-align: center;
+  }
+  .sentence{
+    color: #222;
+    font-size: 30px;
+    text-align: left;
+}
+.wrapper{
+  background-color: transparent;
+  margin: 75px auto;
+  padding: 0px;
+  position: relative;
+  width: 100%;
+  bottom: 45px;
+}
 }
