@@ -16,7 +16,7 @@ text-align: center;
   justify-content: space-around;
   align-items: center;
   font-size: 9px;
-  margin-bottom: 100px;
+  margin-bottom: 25px;
 }
 .menu-button{
   background-color: rgb(249, 248, 248);
@@ -28,6 +28,7 @@ text-align: center;
   font-weight: bold;
   cursor: pointer;
   box-shadow: inset 0px 0px 1px #c1c1c1;
+  transition: 0.25s;
 }
 .menu-button:hover {
   box-shadow: inset 0px 0px 3px #c1c1c1;
@@ -61,4 +62,63 @@ text-align: center;
   margin-top: 5px;
   margin-bottom: 30px;
   padding: 0px;
+}
+.filter-container{
+  margin-top: 25px;
+  display: flex;
+  padding: 15px;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.filter-button{
+  background-color: rgb(249, 248, 248);
+  color: rgb(40, 40, 40);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: inset 0px 0px 1px #c1c1c1;
+  transition: 0.25s;
+}
+.filter-button:hover {
+  box-shadow: inset 0px 0px 3px #c1c1c1;
+  transform: translateY(-2px); 
+}
+.work-container{
+  margin-top: 25px;
+  display: flex;
+  max-width: 800px;
+  max-height: 500px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: rgb(40, 40, 40);
+  background-color: rgb(249, 248, 248);
+  border-radius: 20px;
+  box-shadow: inset 0px 0px 3px #c1c1c1; 
+  overflow: hidden;
+  object-fit: contain;
+  transition: 0.25s;
+}
+.work-container:hover{
+  transform: scale(1.01);
+}
+.work-img-div{
+width: 375px;
+height: 100px;
+}
+.work-h1{
+  color: rgb(40, 40, 40);
+}
+.work-h3{
+  color: rgb(154, 154, 154);
 }
